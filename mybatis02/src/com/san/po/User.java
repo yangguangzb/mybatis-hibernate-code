@@ -1,9 +1,11 @@
 package com.san.po;
 
+import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
-public class User {
+public class User implements Serializable{
+	private static final long serialVersionUID = 1L;
 	private int id;
 	private String username;// 用户姓名
 	private String sex;// 性别
